@@ -1,0 +1,2 @@
+$ git init  #to initialize the repository
+$ git add . (adding the files to the staging area/ need to verify before comitting)

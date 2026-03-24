@@ -1,0 +1,7 @@
+git is a tool which is used to control/maintain version control system.
+
+using git we implement VCS
+
+it can track file, folders, of multiple users. and git is platfrm independent, and also tracks files/folder of multiple users
+
+git is not centralised repository, it is distributed across the systems. example copy of remote repository in the local system, if incase any failiure happens, we an still have the loal copy. 

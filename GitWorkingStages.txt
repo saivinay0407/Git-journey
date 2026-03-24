@@ -1,0 +1,6 @@
+git have 3 stages
+1. Working Stage: (where files present in local/working directory and git is not tracking of those)
+2. Staging Area: (where after initializing the git tracks the files and folders after we are adding those to git )
+    $ git add . # this step will moves the files to staging area
+    $ git commit -m "commit message" file name/.(indicates directory, these files now are comitted in local repository)
+3. Remote Repository: once every thing is done(code developed) now the user moves the cde to the remote repository
