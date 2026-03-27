@@ -44,3 +44,5 @@ $ git checkout branchname
 
 stash concept implementation
 add some changes in file, but due to action we want to switch to other branch but in currect branch changes are there but not comitted, in that case we an stash (temporerly delete) the data and swith to other branch
+
+pulling the chnages from the central repo to local repo
