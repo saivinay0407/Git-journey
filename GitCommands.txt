@@ -32,3 +32,6 @@ NOTE: The staging area lets you verify what's going to be committed before you c
 Reset in git is used to remove the changes of the latest commits and has 2 main functionalities
 1. hard: it will remove the commit id and all the data attached with that commit id
 2. soft: it will remove the commit id, the data in file still remain same
+
+$ git reset --hard HEAD~1
+$ git reset --soft HEAD~1
