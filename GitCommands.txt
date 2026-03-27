@@ -1,2 +1,30 @@
 $ git init  #to initialize the repository
-$ git add . (adding the files to the staging area/ need to verify before comitting)
+$ git add . #(adding the files to the staging area/ need to verify before comitting)
+$ git commit -m "commit message" file/foldername
+
+$ git status (to verify the changes/status of the files)
+$ git log # give the information of all the commits
+$ git log --oneline #(commit info in oneline)
+
+=== WORKFLOW FOR REPEATED CHANGES ===
+When you make changes multiple times, you need to git add before each commit:
+
+1. Make changes to files
+2. $ git add . (add changed files to staging area)
+3. $ git commit -m "commit message"
+4. Make more changes
+5. $ git add . (add updated files again)
+6. $ git commit -m "next commit message"
+7. Repeat steps 4-6 as needed
+
+EXAMPLE:
+$ git add .
+$ git commit -m "first change"
+
+$ git add .
+$ git commit -m "second change"
+
+$ git add .
+$ git commit -m "third change"
+
+NOTE: The staging area lets you verify what's going to be committed before you commit it.
