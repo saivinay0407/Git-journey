@@ -35,3 +35,9 @@ Reset in git is used to remove the changes of the latest commits and has 2 main 
 
 $ git reset --hard HEAD~1
 $ git reset --soft HEAD~1
+
+creation of branches
+$ git branch branchname
+
+checkout to newly created branch 
+$ git checkout branchname
